@@ -1,0 +1,139 @@
+/* CSS declarations go here */
+
+body {
+  text-align: center;
+}
+
+@font-face {
+  font-family: SanFrancisco-Thin;
+  src: url("../font/thin.otf");
+}
+
+@font-face {
+  font-family: SanFrancisco-Medium;
+  src: url("../font/medium.otf");
+}
+
+@font-face {
+  font-family: SanFrancisco-Light;
+  src: url("../font/light.otf");
+}
+
+@font-face {
+  font-family: SanFrancisco-Regular;
+  src: url("../font/regular.otf");
+}
+
+@font-face {
+  font-family: SanFrancisco-Ultralight;
+  src: url("../font/ultralight.otf");
+}
+
+.text-head {
+  font-family: SanFrancisco-Thin;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.main-head {
+  font-family: SanFrancisco-Thin;
+}
+
+.text-body {
+  font-family: SanFrancisco-Light;
+}
+
+.main-body {
+  font-family: SanFrancisco-Thin;
+}
+
+#page-1 {
+  background: url("../img/page-1.jpg") no-repeat center ;
+  min-height : 100%;
+  min-width : 100%;
+  background-size: cover ;
+  background-repeat:no-repeat;
+}
+
+#page-2 {
+  background: url("../img/page-2.jpg") no-repeat left ;
+  min-height : 100%;
+  min-width : 100%;
+  background-size: cover;
+  background-repeat:no-repeat;
+  
+}
+
+#page-2 h2 {
+  color: #417505;
+}
+
+#page-2 h4 {
+  color: #000000;
+  line-height: 1.35; 
+  padding-left: 12.5%; 
+  padding-right: 12.5%;
+}
+
+.main-head {
+  color: #030303;
+}
+
+.main-body {
+  color: #030303;
+}
+
+p {
+  font-size: 18px;
+  color: #000000;
+  font-family: SanFrancisco-Light;
+}
+
+.btn-get-updates { 
+  color: #007f24; 
+  background-color: #C4D786; 
+} 
+ 
+.btn-get-updates:hover, 
+.btn-get-updates:focus, 
+.btn-get-updates:active, 
+.btn-get-updates.active, 
+.open .dropdown-toggle.btn-get-updates { 
+  color: #007f24; 
+  background-color: #BED66D; 
+} 
+ 
+.btn-get-updates:active, 
+.btn-get-updates.active, 
+.open .dropdown-toggle.btn-get-updates { 
+  background-image: none; 
+} 
+ 
+.btn-get-updates.disabled, 
+.btn-get-updates[disabled], 
+fieldset[disabled] .btn-get-updates, 
+.btn-get-updates.disabled:hover, 
+.btn-get-updates[disabled]:hover, 
+fieldset[disabled] .btn-get-updates:hover, 
+.btn-get-updates.disabled:focus, 
+.btn-get-updates[disabled]:focus, 
+fieldset[disabled] .btn-get-updates:focus, 
+.btn-get-updates.disabled:active, 
+.btn-get-updates[disabled]:active, 
+fieldset[disabled] .btn-get-updates:active, 
+.btn-get-updates.disabled.active, 
+.btn-get-updates[disabled].active, 
+fieldset[disabled] .btn-get-updates.active { 
+  background-color: #C4D786; 
+} 
+ 
+.btn-get-updates .badge { 
+  color: #C4D786; 
+  background-color: #007f24; 
+}
